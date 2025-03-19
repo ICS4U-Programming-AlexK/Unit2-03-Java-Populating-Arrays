@@ -13,6 +13,8 @@ public final class PopulatingArrays {
     private static final int MAX_SIZE = 10;
     /** Defining MAX_VALUE. */
     private static final int MAX_VALUE = 101;
+    /** Defining MAX_ARRAYS. */
+    private static final int MAX_ARRAYS = 5;
     /**
      * This is to satisfy the style checker.
      *
@@ -33,7 +35,7 @@ public final class PopulatingArrays {
         // Creating an array of 10 integers
         int[] numArray = new int[MAX_SIZE];
         // Populating the array with 10 random numbers
-        for (int counterArray = 0; counterArray < 5; counterArray++) {
+        for (int counterArray = 0; counterArray < MAX_ARRAYS; counterArray++) {
             int sum = 0;
             // Filling the array with random numbers
             for (int counter = 0; counter < MAX_SIZE; counter++) {
